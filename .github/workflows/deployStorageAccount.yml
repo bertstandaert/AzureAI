@@ -1,5 +1,4 @@
-on: [push]
-  name: Azure ARM
+name: Azure ARM
   jobs:
     build-and-deploy:
       runs-on: ubuntu-latest
